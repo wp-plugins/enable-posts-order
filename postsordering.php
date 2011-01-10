@@ -5,7 +5,7 @@
  */
 /*
 Plugin Name: Enable posts order
-Plugin URI: http://wordpress.org/#
+Plugin URI: http://wordpress.org/plugins/enable-posts-order/
 Description: This plugin gives you an easy way for ordering your posts. similar to the generic option in pages.
 Author: Ben Yitzhaki
 Version: 0.1
@@ -61,7 +61,7 @@ jQuery(document).ready(function($) {
     		if(response == 'ok') jQuery(savename).css("background-color","#C6E6CC");
             else {
                 jQuery(savename).css("background-color","#EAD8D8");
-                alert("an error has occured. it may have occured because slow connection or db error");
+                alert("an error has been occured. it may have occured because a slow connection or a db error");
                 }
     	});
 
@@ -86,7 +86,6 @@ function create_custom_field($postid) {
      $wpdb->query("INSERT INTO `$wpdb->postmeta`(`meta_key`,`meta_value`,`post_id`) VALUES('custom_posts_order','0','".$postid."')");
 
     }
-   //$wpdb->query("INSERT INTO `$wpdb->postmeta`(`meta_key`,`meta_value`,`post_id`) VALUES('custom_posts_order','0','".$postid."') ON DUPLICATE KEY UPDATE `meta_value`=meta_value");
 
 }
 
