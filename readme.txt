@@ -6,7 +6,7 @@ Requires at least: 2.0.2
 Tested up to: 3.04
 Stable tag: 0.1
 
-Gains you the ability to custom order posts, using ajax and custom fields.
+Order your posts easily using ajax (add extra "order" column to each post)
 
 == Description ==
 Order your posts (similar to the generic order option for pages).
