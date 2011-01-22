@@ -11,7 +11,8 @@ Order your posts easily using ajax (adds extra "order" column to each post)
 == Description ==
 Order your posts easily.
 
-This one is down back for heave development. the next version will include better support multiple categories, auto ordering of the posts (no need to know php/sql) and some more features.
+<strong>Skip this plugin untill the next version</strong><br />
+This one is down back for heavy development. the next version will include better support multiple categories, auto ordering of the posts (no need to know php/sql) and some more features.
 
 Hey, you can always check [my personal page](http://benyitzhaki.co.il "benyitzhaki.co.il") for updates or just to say hi .
 
