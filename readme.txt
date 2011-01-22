@@ -9,17 +9,9 @@ Stable tag: 0.1
 Order your posts easily using ajax (adds extra "order" column to each post)
 
 == Description ==
-Order your posts (similar to the generic order option for pages).
+Order your posts easily.
 
-The plugins adds another column in the posts managment area named "order" that contains a simple text input that defines the posts order.
-The order is dynamicly updated using ajax.
-
-In order to show posts by this order, simply order your query_posts by meta_value_num (or meta_value for lower versions of wp) and also add "meta_key=custom_posts_order" to the query.
-
-In example:
-query_posts("orderby=meta_value_num&meta_key=custom_posts_order");
-
-more info at http://codex.wordpress.org/Function_Reference/query_posts
+This one is down back for heave development. the next version will include better support multiple categories, auto ordering of the posts (no need to know php/sql) and some more features.
 
 Hey, you can always check [my personal page](http://benyitzhaki.co.il "benyitzhaki.co.il") for updates or just to say hi .
 
